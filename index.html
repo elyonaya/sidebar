@@ -11,27 +11,32 @@
 
     <main>
        <div class="menu">
-        <img id="menu" src="img/menu.png" alt="Menu">
+        <button id="menu"><img src="img/menu.png" alt="Menu"></button>
        </div>
     </main>
 
-    <aside>
-        <div>
-         <div class="close">
-            <img id="close" src="img/close.png" alt="Close">
-         </div>
-         <h1>Coding <span>Addict</span></h1>
-         <h3>Home</h3>
-         <h3>About</h3>
-         <h3>Projects</h3>
-         <h3>Contact</h3>
-         <div>
+    <aside id="aside">
+        
+        <div id="aside_header">
+            <h1>Coding <span>Addict</span></h1>
+            <button id="close"><img class="close" src="img/close.png" alt="Close"></button>
+        </div>
+         <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        
+         <div class="reseaux">
             <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
             <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
             <a href="#"><img src="img/github.png" alt="Github"></a>
             <a href="#"><img src="img/linkedin.png" alt="Linkedin"></a>
          </div>
-        </div>
+    
     </aside>
 
     <script src="js/script.js"></script>
